@@ -20,7 +20,7 @@ class Key {
 class Person {
   constructor(private key: Key) {}
 
-  getKey() {
+  getKey(): Key {
     return this.key;
   }
 }
